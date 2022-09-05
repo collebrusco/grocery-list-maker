@@ -14,10 +14,15 @@ To store information about purchasable food items and recipies, the program will
 # Items
 The syntax for declaring an item is as follows:
 First, write "item" to indicate that details about a new item will follow.
+
 Write "costs" followed by the price of the item to declare a price.
+
 Write "weight" followed by the weight of the item in ounces if applicable. A weight doesn't need to be specified.
+
 Write "count" followed by how many of the item is included to specify a count, default is 1.
+
 Write 'm', 'f', 'sf', or 'nv' to specify that the item contains non-fish meat, fish, shellfish, or is otherwise non vegan respectively.
+
 Finally, write "named" followed by the name of the item. The name can be multiple words but must end with a new line to indicate the end of the name. Many examples can be found in the default items.txt.
 
 # Recipes
@@ -42,10 +47,15 @@ alt 1 lbs tofu
 
 After all the ingredients are listed, there are a couple more things to specify about the recipe.
 Write "note" followed by the instructions of the recipe. IMPORTANT! Place a pound sign ('#') at the end of your instructions to tell the program that's the end. This is not ideal but is done so the instructions can contain as many new lines as needed.
+
 Write "type" followed by the category of the recipe. You are allowed to enumerate as many and whatever categories you'd like, the program will read them and ask how many of each you want when preparing your list. It is recommended you use the "entree" category to denote anything you cook at home, as the program will look for the entree category and use it to help you make your list, but this is the only recipe category that the program is aware of. Other than that, you create and control the categories.
+
 Write "feeds" followed by an integer to enumerate how many people the recipe can feed.
+
 Write "takes" followed by an integer number of minutes the recipe roughly takes to prepare.
+
 Write "mess" followed by an integer 0-4 to represent how messy the recipe is.
+
 Here is the enum:
 enum MESS_LEVEL {
 	NONE = 0,

@@ -1,0 +1,159 @@
+item costs 4.73 weight 1 lbs named ground beef
+item costs 2.14 count 12 named mixla tortillas
+item costs 3.54 count 6 named white onion
+item costs 0.49 named cilantro
+item costs 1.32 named organic cilantro
+item costs 3.59 weight 10 named panela fresca
+item costs 2.14 count 20 named honey bread
+item costs 2.86 count 10 named colby jack slice
+item costs 2.86 count 10 named monterey jack slice
+item costs 2.86 count 10 named cheddar slice
+item costs 1.49 count 3 named garlic
+item costs 5.34 weight 11.7 named el gallo dona
+item costs 0.20 named lime
+item costs 1.11 weight 1 lbs named refried beans
+item costs 3.50 count 5 named nishiki rice
+item costs 0.70 count 1 named green bell pepper
+item costs 0.04 count 1 named serrano
+item costs 5.13 weight 20 named soy sauce
+item costs 8.23 weight 25 named sake
+item costs 5.44 weight 20.2 named rice vinegar
+item costs 3.07 weight 16 named ginger
+item costs 0.49 named green onions
+item costs 1.90 weight 16 named sour cream
+item costs 3.89 named ciabatta
+item costs 3.58 weight 5 named arugula
+item costs 4.31 count 4 weight 1 lbs named butter
+item costs 13.40 count 4 weight 3 lbs named chicken breast
+item costs 3.79 weight 16 named tortilla chips no salt
+item costs 2.76 count 5 named rosemary
+item costs 0 named garden rosemary
+item costs 5.14 weight 12.5 named garlic expressions
+item costs 2.40 weight 5.5 named zapps hot
+item costs 2.04 named avocado
+
+FOR RECIPS, ENUM NOTE, TYPE, FEEDS, TAKES, MESS
+
+
+
+
+recipe contains
+1 ct chicken breast
+and 0.5 ct ciabatta
+and 0.5 ct butter
+and 1 oz arugula
+and 0.33 ct garlic
+and 2 ct garden rosemary
+and opt 2 ct rosemary
+and 1 oz garlic expressions
+and opt 1 ct zapps hot
+and opt 2 ct monterey jack slice
+and opt 0.5 ct avocado
+
+note #
+type entree
+feeds 2
+takes 30 minutes
+mess 2
+named chicken ciabatta sammies
+
+
+recipe contains
+1 lbs ground beef
+and 1 ct nishiki rice
+and 1 ct white onion
+and 1 ct green bell pepper
+and opt 1 ct serrano
+and 1 ct lime
+and 1 oz sake
+and 0.66 oz soy sauce
+and 0.33 ct garlic
+and 0.1 oz rice vinegar
+and 2 oz ginger
+and 0.25 ct cilantro
+and 0.33 ct green onions
+
+note
+chop veggies however, but mince garlic, ginger & serrano.
+prepare rice (wash, soak, cover at 1.25:1 w:r, 
+		heat until strong boil,
+		5 min simmer, 30 sec max heat, 
+		cut heat & rest covered 20 min, fluff)
+mix SMALL dash of rice vinegar into rice. 
+shape beef into patty size of cast iron. salt & msg.
+bell and onion on high & fast heat. salt. good color.
+make room for small pool of fresh olive oil. add dash of sesame oil.
+minced garlic & serrano in. fry until fragrant. incorporate.
+season w korean pepper, ginger, desired asian touches.
+keep hot, deglaze with sake, dash of mirin. low heat. give time.
+cast iron, high heat, veggie oil, beef patty in. get good color.
+break up, drain some fat if nec, add to veggies when ready.
+taste, adjust. serve rice mold style, press in valley, serve beef.
+garnish with sesame seeds, cilantro, lime, green onion, serve.#
+
+type entree
+feeds 3
+takes 60 minutes
+mess 3
+named beef bowl
+
+
+recipe contains
+6 ct mixla tortillas
+and 0.25 ct cilantro
+and 1.5 oz panela fresca
+and 1 lbs ground beef
+and 1 ct white onion
+and 0.33 ct garlic
+and 0.25 oz el gallo dona
+and 1 ct lime
+and opt 1 ct refried beans
+and opt 3 oz sour cream
+
+note
+julienne half of onion, fine dice other half. mince garlic.
+cilantro leaves rough chop, ideally fine slice stems as well.
+julienne onions in on high heat, salt, msg.
+season w cumin, pepper flake, ginger, other appropriate seasonings.
+make room, add small pool of fresh oil, add garlic, stir.
+fry until fragrant, then incorporate. let flavor settle.
+taste and adjust. should be mildly over-seasoned here.
+make room (or use separate cast iron) & salt ground beef.
+press into large patty, add, leave to sear.
+after good color, break up into bite size or smaller, mix.
+adjust seasoning. optional lime squeeze & small deglaze. let beef finish.
+toast tortillas on OPEN FLAME. optional refried bean down on tortilla.
+divide beef among tortillas. top with fresh diced onion. add dona.
+crumble panela fresca. add diced cilantro stem, then leaf.
+opt sour cream, and do NOT forget the lime squeeze, trust me. serve.#
+
+type entree
+feeds 3
+takes 30 minutes
+mess 2
+named ground beef tacos
+
+
+recip contains
+2 ct honey bread
+and 1 ct colby jack slice
+note #
+type entree
+feeds 1
+named cheese sandwich
+
+
+
+
+
+
+
+
+
+
+
+OUT
+
+g++ main.cpp Item.cpp ItemReader.cpp Recipe.cpp RecipeReader.cpp State.cpp -std=c++14
+
+g++ orderer.cpp ItemReader.cpp Item.cpp State.cpp -std=c++14

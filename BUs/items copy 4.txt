@@ -1,0 +1,300 @@
+item costs 2.02  weight 1.6 f 		named anchovy paste
+item costs 1.63  weight 16 		named angel hair
+item costs 3.58  weight 5 		named arugula
+item costs 2.04  			named avocado
+item costs 6.1   weight 16 		named baby bella mushroom
+item costs 2.76  count 3 weight 0.66 	named basil
+item costs 2.86  weight 12 		named broccoli florets
+item costs 4.31  count 4 weight 16 nv 	named butter
+item costs 2.86  count 10 nv 		named cheddar slice
+item costs 13.4  count 4 weight 48 m 	named chicken breast
+item costs 1.94  weight 32 m 		named chicken broth
+item costs 3.89  			named ciabatta
+item costs 0.49  			named cilantro
+item costs 14.39 weight 16 f 		named cod
+item costs 2.86  count 10 nv 		named colby jack slice
+item costs 1.94  weight 15 		named crushed tomato
+item costs 5.34  weight 11.7 		named el gallo dona
+item costs 8.02  weight 9 nv 		named fontina
+item costs 0     			named garden basil
+item costs 0     			named garden rosemary
+item costs 1.49  count 3 			named garlic
+item costs 5.14  weight 12.5 		named garlic expressions
+item costs 3.07  weight 16 		named ginger
+item costs 0.7   			named green bell pepper
+item costs 0.49  			named green onions
+item costs 4.73  weight 16 m 		named ground beef
+item costs 9.26  weight 8 nv 		named gruyere
+item costs 2.14  count 20 		named honey bread
+item costs 0.6   to 1.2 			named house veggies
+item costs 0.2   			named lime
+item costs 2.14  count 12 		named mixla tortillas
+item costs 2.86  count 10 nv 		named monterey jack slice
+item costs 3.5   count 5 			named nishiki
+item costs 7.19  weight 16.9 		named olive oil
+item costs 1.32  			named organic cilantro
+item costs 3.59  weight 10 nv 		named panela fresca
+item costs 4.31  weight 5 nv 		named parm
+item costs 8.65  weight 6.4 nv 		named parm reggiano
+item costs 0.35  weight 4.32 		named poblano
+item costs 1.11  weight 16 		named refried beans
+item costs 5.44  weight 20.2 		named rice vinegar
+item costs 2.76  count 5 			named rosemary
+item costs 8.23  weight 25 		named sake
+item costs 3.39  weight 8 nv 		named sawdust parm
+item costs 0.04  			named serrano
+item costs 0.45  weight 1.76 		named shallot
+item costs 1.9   weight 16 nv 		named sour cream
+item costs 5.13  weight 20 		named soy sauce
+item costs 3.47  weight 6 		named spring mix
+item costs 9.24  count 8 weight 32 f 	named swai filet
+item costs 0.84  weight 6 		named tomato paste
+item costs 3.79  weight 16 		named tortilla chips no salt
+item costs 0.92  weight 10.4 		named white onion
+item costs 2.4   weight 5.5 		named zapps hot
+item costs 1.15  weight 7.84 		named zucchini
+item costs 3.55				named freezer meal
+item costs 4 				named heb sammy
+item costs 3.38 count 4 weight 13.7 oz 	named ritz
+item costs 5.03 weight 3 oz 		named soppressata
+item costs 5 to 6 weight 3 oz 		named cured meat
+item costs 3 to 4 weight 16 oz 		named salsa
+item costs 2.3 weight 4.23 		named sardines
+item costs 3.85 weight 16 oz count 14 	named jewish rye
+item costs 7.2 weight 16 oz 		named turkey
+item costs 3.58 weight 10 oz		named hummus
+item costs 5.44 weight 18 oz 		named pita chips
+item costs 0.93 weight 0.6 		named red onion
+item costs 9.77 weight 24 oz count 20 	named bacon
+
+
+
+
+ I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I
+I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I 
+
+====NOTE, TYPE, FEEDS, TAKES, MESS====
+
+recipe contains
+2 ct honey bread
+and 0.2 ct turkey
+and 1 ct colby jack slice
+alt 1 ct monterey jack slice
+and opt 0.2 ct spring mix
+and opt 0.16 ct red onion
+and opt 0.2 ct cured meat
+and opt 2 ct bacon
+note # type entree feeds 1 takes 5 mess 1
+named basic sammy
+
+recipe contains
+0.25 ct pita chips
+and 0.25 ct hummus
+note # type snack feeds 1 takes 2 mess 0
+named hummus & pita chips
+
+recipe contains
+0.2 ct sardines
+and 1 ct jewish rye
+note # type snack feeds 1 takes 2 mess 1
+named sardines on rye
+
+recipe contains
+0.25 ct tortilla chips no salt
+and 0.25 ct salsa
+note # type snack feeds 1 takes 1 mess 1
+named chips & salsa
+
+recipe contains 
+0.5 ct cured meat
+and 0.25 ct ritz
+note # type snack feeds 1 takes 1 mess 1
+named crackers and meats
+
+recipe contains
+1 ct freezer meal
+note # type freezer feeds 1 takes 2 mess 0
+named freezer meal
+
+recipe contains 
+1 ct heb sammy
+and opt 0.5 ct zapps hot
+note # type premade feeds 1 takes 2 mess 0
+named heb sammy
+
+
+
+recipe contains
+2 ct swai filet
+alt 16 oz cod
+and 1 ct nishiki
+and 0.1 oz rice vinegar
+and 0.2 ct cilantro
+and 0.5 ct spring mix
+and 0.5 ct white onion
+and 1 ct house veggies
+and 0.33 ct garlic
+and 1 oz sake
+and 1 oz soy sauce
+and 1 ct lime
+and 1 oz ginger
+and 0.33 ct green onions
+
+and opt 1 ct serrano
+
+note #
+type entree
+feeds 2
+takes 60
+mess 3
+named filet over rice and veggies
+==========================================
+
+recipe contains
+1 ct angel hair
+and 1 ct crushed tomato
+and 0.5 ct tomato paste
+and 1 ct white onion
+and 2 ct shallot
+and 1 oz olive oil
+and 1 oz sawdust parm
+and 1 lbs ground beef
+and 0.5 ct garlic
+and 1 oz sake
+and 2 ct garden basil
+
+and opt 2 ct basil
+and opt 0.5 ct baby bella mushroom
+and opt 3 oz fontina
+and opt 0.75 ct parm reggiano
+
+note #
+type entree
+feeds 4
+takes 60
+mess 3
+named signature meat sauce
+==========================================
+
+recipe contains
+1 ct chicken breast
+and 0.5 ct ciabatta
+and 0.5 ct butter
+and 1 oz arugula
+and 0.33 ct garlic
+and 2 ct garden rosemary
+and opt 2 ct rosemary
+and 1 oz garlic expressions
+and opt 1 ct zapps hot
+and opt 2 ct monterey jack slice
+and opt 0.5 ct avocado
+
+note #
+type entree
+feeds 2
+takes 30 minutes
+mess 2
+named chicken ciabatta sammies
+==========================================
+
+recipe contains
+1 lbs ground beef
+and 1 ct nishiki
+and 1 ct white onion
+and 1 ct shallot
+and 1 ct green bell pepper
+and opt 1 ct serrano
+and 1 ct lime
+and 1 oz sake
+and 0.66 oz soy sauce
+and 0.33 ct garlic
+and 0.1 oz rice vinegar
+and 1 oz ginger
+and 0.25 ct cilantro
+and 0.33 ct green onions
+
+note
+chop veggies however, but mince garlic, ginger & serrano.
+prepare rice (wash, soak, cover at 1.25:1 w:r, 
+		heat until strong boil,
+		5 min simmer, 30 sec max heat, 
+		cut heat & rest covered 20 min, fluff)
+mix SMALL dash of rice vinegar into rice. 
+shape beef into patty size of cast iron. salt & msg.
+bell and onion on high & fast heat. salt. good color.
+make room for small pool of fresh olive oil. add dash of sesame oil.
+minced garlic & serrano in. fry until fragrant. incorporate.
+season w korean pepper, ginger, desired asian touches.
+keep hot, deglaze with sake, dash of mirin. low heat. give time.
+cast iron, high heat, veggie oil, beef patty in. get good color.
+break up, drain some fat if nec, add to veggies when ready.
+taste, adjust. serve rice mold style, press in valley, serve beef.
+garnish with sesame seeds, cilantro, lime, green onion, serve.#
+
+type entree
+feeds 3
+takes 60 minutes
+mess 3
+named beef bowl
+=========================================
+
+recipe contains
+6 ct mixla tortillas
+and 0.25 ct cilantro
+and 1.5 oz panela fresca
+and 1 lbs ground beef
+and 1 ct white onion
+and 0.33 ct garlic
+and 0.25 oz el gallo dona
+and 1 ct lime
+and opt 1 ct refried beans
+and opt 3 oz sour cream
+
+note
+julienne half of onion, fine dice other half. mince garlic.
+cilantro leaves rough chop, ideally fine slice stems as well.
+julienne onions in on high heat, salt, msg.
+season w cumin, pepper flake, ginger, other appropriate seasonings.
+make room, add small pool of fresh oil, add garlic, stir.
+fry until fragrant, then incorporate. let flavor settle.
+taste and adjust. should be mildly over-seasoned here.
+make room (or use separate cast iron) & salt ground beef.
+press into large patty, add, leave to sear.
+after good color, break up into bite size or smaller, mix.
+adjust seasoning. optional lime squeeze & small deglaze. let beef finish.
+toast tortillas on OPEN FLAME. optional refried bean down on tortilla.
+divide beef among tortillas. top with fresh diced onion. add dona.
+crumble panela fresca. add diced cilantro stem, then leaf.
+opt sour cream, and do NOT forget the lime squeeze, trust me. serve.#
+
+type entree
+feeds 3
+takes 30 minutes
+mess 2
+named ground beef tacos
+==========================================
+
+recip contains
+2 ct honey bread
+and 1 ct colby jack slice
+note #
+type entree
+feeds 1
+named cheese sandwich
+
+
+
+
+
+
+
+
+
+
+
+OUT
+
+g++ main.cpp Item.cpp ItemReader.cpp Recipe.cpp RecipeReader.cpp State.cpp -std=c++14
+
+g++ orderer.cpp ItemReader.cpp Item.cpp State.cpp -std=c++14 -o alpha.out
+

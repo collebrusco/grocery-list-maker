@@ -27,6 +27,7 @@ Each ingredient starts with a number and a unit, specifying how much of the ingr
 Ex:
 
 0.5 ct onion
+
 and 8 oz refried beans
 
 Ingredients can be delared optional by adding "opt" after "and" and before the number and unit.
@@ -34,7 +35,9 @@ If an ingredient can be substituted for something else, on the line directly aft
 Ex)
 
 opt 1 oz soy sauce
+
 1 lbs chicken breast
+
 alt 1 lbs tofu
 
 After all the ingredients are listed, there are a couple more things to specify about the recipe.

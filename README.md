@@ -25,12 +25,14 @@ Recipies are essentially lists of different quantities of items, packaged with s
 To declare a recipe, start with the word "recipe" to indicate the beginning of a recipe. Follow it with "contains" to indicate the start of the ingredient list.
 Each ingredient starts with a number and a unit, specifying how much of the ingredient is needed. Units are "ct" for count, "oz" and "lbs" for weight. Next, write the name of the ingredient as specified in the item list, followed by a new line. Preface each ingredient after the first with "and" to tell the program there is more.
 Ex:
+
 0.5 ct onion
 and 8 oz refried beans
 
 Ingredients can be delared optional by adding "opt" after "and" and before the number and unit.
 If an ingredient can be substituted for something else, on the line directly after said ingredient, start with "alt" instead of "and" and declare the alt ingredient.
 Ex)
+
 opt 1 oz soy sauce
 1 lbs chicken breast
 alt 1 lbs tofu

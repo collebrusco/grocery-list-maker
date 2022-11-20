@@ -1,3 +1,4 @@
+![home-screen](/docs/assets/images/grocery-list-maker.png)
 # grocery-list-maker
 Command line app that keeps a recipe book and uses it to help create grocery lists.
 Created out of personal necessity: I always forget what recipes and snacks I know of when I'm to go to the store, so I wanted a little tool to remember them for me and pick some out for a grocery list based on how many meals I need, snacks I want, and how much cooking I want to do. Created by Frank Collebrusco mostly during the summer of 2022.
